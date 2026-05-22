@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Himel Mahmud-Personal Portfolio</title>
+    <meta name="author" content="themesflat.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Davies - Personal Portfolio is a sleek and modern HTML template designed for developers, designers, freelancers, and professionals who want to showcase their work online. Fully responsive, SEO-friendly, and easy to customize, it helps you create a strong personal brand and impress potential clients or employers.">
+
+    <!-- font -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/fonts/inter/inter.css">
+    <link rel="stylesheet" href="assets/icon/icomoon/style.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <!-- Favicon and Touch Icons  -->
+     <link rel="shortcut icon" href="assets/images/Favicon/favicon.svg" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body data-default-mode="dark" class="counter-scroll">
+    <!-- <canvas class="cursor-trail d-none d-xl-block" id="trail"></canvas> -->
+
+    <!-- Preload -->
+    <div class="preload preload-container bg-dark" id="preload">
+        <div class="preload-logo">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <!-- /Preload -->
+
+    <!-- Body Background -->
+    <div class="body-background">
+        <div class="bg-item">
+            <img loading="lazy" width="1440" height="900" src="assets/images/item/cloud-bg.png" alt="Image">
+        </div>
+        <div class="bg-video video-dark">
+            <video class="video" muted="" autoplay="" loop="" playsinline="">
+                <source src="assets/images/overlay-2.mp4" type="video/mp4">
+            </video>
+            <div class="overlay-1"></div>
+        </div>
+    </div>
+    <!-- /Body Background -->
+    <!-- Btn Open Color -->
+    <!-- <div class="tf-left-bar">
+        <a class="btn-setting-color tf-btn-icon style-2" data-bs-toggle="offcanvas" href="#settingColorMenu"><i class="icon-gear"></i></a>
+    </div> -->
+    <!-- /Btn Open Color -->
+    <!-- Setting Color -->
+    <div class="offcanvas offcanvas-end offcanvas-color" id="settingColorMenu">
+        <div class="offcanvas-content">
+            <div class="canvas-header">
+                <h5 class="letter-space--2">Configuration</h5>
+                <span class="icon-close-popup" data-bs-dismiss="offcanvas">
+                    <i class="icon-close"></i>
+                </span>
+            </div>
+            <div class="canvas-body">
+                <h6 class="title">Color</h6>
+                <div class="settings-color list-choose">
+                    <button type="button" class="btn-color theme-light choose-item">
+                        <span class="color type-body-v1"></span>
+                        <span class="text">
+                            Silver Dawn
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-light choose-item">
+                        <span class="color type-body-v2"></span>
+                        <span class="text">
+                            Lavender Stone
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-light choose-item">
+                        <span class="color type-body-v3"></span>
+                        <span class="text">
+                            Ocean Brezee
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-dark choose-item">
+                        <span class="color type-dark-v1"></span>
+                        <span class="text">
+                            Midnight Fade
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-dark choose-item">
+                        <span class="color type-dark-v2"></span>
+                        <span class="text">
+                            Charcoal Mist
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-dark choose-item">
+                        <span class="color type-dark-v3"></span>
+                        <span class="text">
+                            Forest Shadow
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Setting Color -->
+
+    <!-- Menu Mobile -->
+    <div class="action-open-mobile d-lg-none">
+        <div class="tf-btn-icon style-2">
+            <div class="btn-mobile-menu">
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-mobile-list">
+            <ul class="nav-mobile-item">
+                <li class="nav-item">
+                    <a href="#home" class="item-link scroll-link">
+                        <i class="icon icon-home"></i>
+                        <p class="tool-tip text-caption">Home</p>
+                    </a>
+                </li>
+                <li class="br-line"></li>
+                <li class="nav-item">
+                    <a href="#about" class="item-link scroll-link">
+                        <i class="icon icon-user-circle"></i>
+                        <p class="tool-tip text-caption">About</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="item-link scroll-link">
+                        <i class="icon icon-edu"></i>
+                        <p class="tool-tip text-caption">Education & Experience</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="item-link scroll-link">
+                        <i class="icon icon-high-light"></i>
+                        <p class="tool-tip text-caption">Work</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="item-link scroll-link">
+                        <i class="icon icon-service"></i>
+                        <p class="tool-tip text-caption">Services</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tech" class="item-link scroll-link">
+                        <i class="icon icon-tech-stack"></i>
+                        <p class="tool-tip text-caption">Tech</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonial" class="item-link scroll-link">
+                        <i class="icon icon-tes"></i>
+                        <p class="tool-tip text-caption">Testimonials</p>
+                    </a>
+                </li>
+                <li class="br-line"></li>
+                <li class="nav-item">
+                    <a href="#contact" class="item-link scroll-link">
+                        <i class="icon icon-send"></i>
+                        <p class="tool-tip text-caption">Contact</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /Menu Mobile -->
+
+    <!-- Tool Sidebar -->
+    <div class="sidebar-tools pst-v1">
+        <div class="nav-top" style="opacity: 0; overflow: hidden;">
+            <div  class="tf-btn-icon toggle-switch-mode">
+                <i class="icon icon-light"></i>
+            </div>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#home" class="item-link scroll-link">
+                    <i class="fa-regular fa-house"></i>
+                    <p class="tool-tip text-caption">Home</p>
+                </a>
+            </li>
+            <li class="br-line"></li>
+            <li class="nav-item">
+                <a href="#about" class="item-link scroll-link">
+                    <i class="fa-regular fa-user"></i>
+                    <p class="tool-tip text-caption">About</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#education" class="item-link scroll-link">
+                    <i class="fa-regular fa-file"></i>
+                    <p class="tool-tip text-caption">Resume</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#work" class="item-link scroll-link">
+                    <i class="fa-brands fa-slack"></i>
+                    <p class="tool-tip text-caption">Work</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#service" class="item-link scroll-link">
+                    <i class="fa-brands fa-whmcs"></i>
+                    <p class="tool-tip text-caption">Services</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#tech" class="item-link scroll-link">
+                    <i class="fa-brands fa-yelp"></i>
+                    <p class="tool-tip text-caption">Tech</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonial" class="item-link scroll-link">
+                    <i class="fa-brands fa-teamspeak"></i>
+                    <p class="tool-tip text-caption">Testimonials</p>
+                </a>
+            </li>
+            <li class="br-line"></li>
+            <li class="nav-item">
+                <a href="#contact" class="item-link scroll-link">
+                    <i class="fa-regular fa-address-book"></i>
+                    <p class="tool-tip text-caption">Contact</p>
+                </a>
+            </li>
+        </ul>
+        <div class="nav-bottom">
+            <a href="#" class="tf-btn-icon go-top">
+                <i class="fa-solid fa-arrow-up "></i>
+            </a>
+        </div>
+    </div>
+    <!-- /Tool Sidebar -->
+
+    <div class="overlay-pop"></div>
+    <main id="wrapper">
+
+        <!-- Time Local -->
+        <div class="tf-header-wrap">
+            <a href="index.html" class="logo-site d-lg-none">
+                <img class="image-switch" data-light="assets/images/Favicon/favicon.svg" data-dark="assets/images/Favicon/favicon.svg" loading="lazy" width="40"
+                    height="40" src="assets/images/Favicon/favicon.svg" alt="Image">
+            </a>
+            <div class="left">
+                <div style="display: flex; gap: 10px;" class="time-local text-body-3">
+                    <p class="date"></p> /
+                    <p class="clock"></p>
+                </div>
+
+            </div>
+        </div>
+        <!-- /Time Local -->
+
+        <!-- User Sidebar -->
+        <div class="sidebar-user">
+            <div class="wrap">
+                <div class="user-image">
+                    <div class="image">
+                        <img loading="lazy" width="468" height="856" src="assets/images/Himel Mahmud Formal Photo 2.png" alt="Image">
+                    </div>
+                    <div class="meta-left d-none d-sm-block">
+                        <div class="bg-item-svg">
+                            <img class="image-switch" data-dark="assets/images/item/vector-user_dark.svg" width="32" height="227"
+                                src="assets/images/item/vector-user.svg" alt="Image">
+                        </div>
+                        <p class="avaiable-dot vertical text-body-3 text-black-72 fw-medium">
+                            <span class="text-vertical">Available for Work</span>
+                            <span class="dot"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="user-logo d-none d-lg-block">
+                    <img class="image-switch" data-light="assets/images/Favicon/favicon.svg" data-dark="assets/images/Favicon/favicon.svg" loading="lazy"
+                        width="40" height="40" src="assets/images/Favicon/favicon.svg" alt="Image">
+                </div>
+                <ul class="tf-social-icon-2 user-social d-grid">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.72">
+                                    <path opacity="0.2"
+                                        d="M1.51502 11.2356L1.55752 4.87313C1.56502 3.72125 2.37065 2.73375 3.48252 2.51375L9.6269 1.29563C11.1031 1.00313 12.4738 2.15813 12.4638 3.6875L12.4213 10.0513C12.4131 11.2025 11.6075 12.1894 10.4956 12.41L4.35127 13.6281C2.87502 13.9206 1.50502 12.7656 1.51502 11.2356Z"
+                                        fill="black" />
+                                    <path opacity="0.5"
+                                        d="M4.52563 13.7744L4.56813 7.41062C4.575 6.25999 5.38125 5.27312 6.49313 5.05249L12.6375 3.83499C14.1138 3.54249 15.4844 4.69749 15.4744 6.22687L15.4319 12.5906C15.4244 13.7419 14.6188 14.7287 13.5069 14.9494L7.3625 16.1675C5.88625 16.46 4.51563 15.305 4.52563 13.7756V13.7744Z"
+                                        fill="black" />
+                                    <path opacity="0.8"
+                                        d="M7.53625 16.3125L7.57875 9.94875C7.58625 8.79687 8.39187 7.81062 9.50375 7.59L15.6481 6.37187C17.1244 6.07937 18.495 7.23437 18.485 8.76375L18.4425 15.1275C18.435 16.2794 17.6294 17.2662 16.5175 17.4862L10.3731 18.7044C8.89687 18.9969 7.52625 17.8419 7.53625 16.3125Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </a></li>
+                </ul>
+                <div class="user-info">
+                    <p class="avaiable-dot text-body-3 fw-medium d-sm-none">
+                        <span class="dot"></span>
+                        <span>Available for Work</span>
+                    </p>
+                    <h5 class="greeting letter-space--2 text-white animationtext clip">
+                        Hey, I’m
+                        <span class="cd-words-wrapper">
+                            <span class="item-text is-visible">Himel Mahmud</span>
+                            <span class="item-text is-hidden">UI/UX Designer</span>
+                        </span>
+                    </h5>
+                    <p class="introduce text-white-56 letter-space--05 text-body-3">
+                        I help startups launch fast and businesses scale smarter through powerful design. Turning ideas into high-performing digital products that drive growth.
+                    </p>
+                    <div class="br-line"></div>
+                    <div class="action-group">
+                        <a href="#" class="tf-btn-action">
+                            <span class="ic-wrap">
+                                <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                            </span>
+                            <span class="text text-body-3 letter-space--05 fw-medium">
+                               Let’s talk
+                            </span>
+                            <span class="ic-wrap">
+                              <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="action-down">
+                            <i class="icon icon-download"></i>
+                            <span class="text-body-3">
+                                Download CV
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /User Sidebar -->
+
+        <div class="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-8 ms-auto">
+                        <div class="wrap-container">
+                            <!-- Intro -->
+                            <div id="home" class="section-intro flat-spacing">
+                                <div class="intro-author effectFade fadeUp no-div">
+                                    <div class="author-image">
+                                        <img loading="lazy" width="23" height="31" src="assets/images/avatar/avatar-boy.png" alt="Image">
+                                    </div>
+                                    <div class="author-info letter-space--05">
+                                        <p class="info_name text-black">Himel Mahmud</p>
+                                        <p class="info_duty text-black-50 text-body-3">UI/UX Designer & Product Designer
+                                        </p>
+                                    </div>
+                                </div>
+                                <h1 class="intro-title letter-space--2 split-text effect-blur-fade">
+                                    I design
+                                    <span class="">Website &</span><br>
+                                    <span class="type-2">digital products</span>
+                                     that people remember.
+                                </h1>
+                                <div class="intro-item">
+                                    <div class="scribble-wrap">
+                                        <svg class="scribble" viewBox="0 0 772 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <defs>
+                                                <linearGradient id="paint0_linear_268_462" x1="12" y1="107" x2="752" y2="66"
+                                                    gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0" stop-color="#F5F5F5" />
+                                                    <stop class="bred" offset="0.466346" stop-color="#00DE51" />
+                                                    <stop offset="1" stop-color="#F5F5F5" />
+                                                </linearGradient>
+                                            </defs>
+
+                                            <path id="scribblePath"
+                                                d="M12 104.315C34.6667 116.269 92.8 137.913 144 128.853C208 117.528 317 33.5324 356 27.8698C395 22.2072 502 20 530 79.1463C557.711 137.682 582 217 477 281.743C423.902 314.483 308 281.433 365 188C422 94.5672 544 65.6205 597 81.6645C650 97.7085 732 88.2708 752 64.6767"
+                                                stroke="url(#paint0_linear_268_462)" stroke-width="50" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="wg-curve-text">
+                                        <div class="icon">
+                                            <svg width="66" height="77" viewBox="0 0 66 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M36.0087 0.873025C43.5379 -1.39092 54.7025 10.7245 61.1553 28.2867L61.4572 29.1225C67.684 46.6467 66.8028 62.8769 59.3914 65.6003L59.0353 65.7187C57.4604 66.1922 55.7272 66.0345 53.9106 65.3315C52.9107 67.1734 51.5757 68.4719 49.9077 69.0848L49.5517 69.2032C47.8627 69.7111 45.9915 69.494 44.031 68.6556C43.0123 70.6987 41.611 72.1331 39.831 72.7872L39.475 72.9056C37.9 73.3792 36.1669 73.2214 34.3503 72.5184C33.3504 74.3604 32.0154 75.6588 30.3474 76.2717L29.9913 76.3901C22.4621 78.6546 11.2976 66.539 4.84471 48.9764C-1.71056 31.1351 -0.920706 14.4292 6.60864 11.6627L6.96468 11.5444C8.53922 11.071 10.2719 11.2285 12.0881 11.931C13.088 10.089 14.4242 8.79122 16.0923 8.17825L16.4483 8.05992C18.1368 7.55221 20.0078 7.76906 21.9678 8.60692C22.9864 6.56371 24.3889 5.12997 26.169 4.47585L26.525 4.35752C28.0993 3.88414 29.8323 4.04093 31.6481 4.74323C32.648 2.90144 33.9848 1.6043 35.6526 0.991355L36.0087 0.873025ZM35.8705 1.58443C34.3995 2.12506 33.1749 3.2743 32.2327 4.98624C38.9691 7.99365 46.7122 18.2732 51.6716 31.7712L51.9735 32.607C56.6603 45.7969 57.3186 58.2527 54.1982 64.7691C56.0249 65.4639 57.7021 65.5477 59.1734 65.0073C60.8518 64.3905 62.2076 62.9806 63.1915 60.8478C64.1769 58.7115 64.7669 55.8924 64.9241 52.5664C65.2383 45.9169 63.8179 37.3655 60.5622 28.5046C57.3065 19.6437 52.8526 12.2069 48.308 7.34263C46.0347 4.90959 43.7599 3.14315 41.6258 2.153C39.4951 1.16454 37.5489 0.967816 35.8705 1.58443ZM6.82655 12.2558C5.14794 12.8726 3.79152 14.2824 2.80758 16.4156C1.82222 18.552 1.23308 21.3706 1.07586 24.6967C0.761621 31.3462 2.18208 39.8975 5.43778 48.7585C8.69348 57.6194 13.1474 65.0562 17.692 69.9204C19.9653 72.3535 22.2392 74.1202 24.3733 75.1104C26.5043 76.0991 28.4509 76.2954 30.1295 75.6787C31.6006 75.1381 32.8226 73.9877 33.7648 72.2757C27.0291 69.2667 19.2871 58.9881 14.3283 45.4919C9.36933 31.9951 8.61515 19.1484 11.8009 12.4943C9.9744 11.7996 8.29774 11.7153 6.82655 12.2558ZM36.5261 62.8777C36.3921 66.5095 35.7585 69.6155 34.6378 71.956C36.4646 72.6508 38.1418 72.7347 39.6131 72.1942C41.1952 71.6128 42.4898 70.3262 43.4573 68.394C41.2039 67.3015 38.8467 65.4136 36.5261 62.8777ZM46.0097 59.3932C45.883 62.8289 45.3095 65.794 44.2991 68.0858C46.2875 68.9319 48.1076 69.073 49.6898 68.4918C51.1609 67.9512 52.3842 66.8013 53.3264 65.0894C50.9571 64.0312 48.463 62.0742 46.0097 59.3932ZM31.8516 5.74426C30.8663 7.88057 30.277 10.6994 30.1198 14.0253C30.1036 14.3692 30.0931 14.7181 30.0861 15.0719C34.3893 19.9995 38.5256 27.1199 41.5949 35.4736L41.8968 36.3094C44.7598 44.3666 46.1188 52.1502 46.0327 58.4733C46.2671 58.7384 46.501 58.9975 46.736 59.2491C49.0092 61.682 51.2833 63.4488 53.4173 64.439C53.4825 64.4693 53.5487 64.4973 53.6136 64.5261C53.6446 64.4618 53.6776 64.3979 53.7079 64.3323C54.6932 62.1959 55.2833 59.377 55.4405 56.0508C55.7547 49.4014 54.3343 40.8499 51.0786 31.9891C47.8229 23.1282 43.3689 15.6914 38.8243 10.8271C36.5511 8.39407 34.2762 6.62765 32.1421 5.63749C32.0763 5.60697 32.01 5.57889 31.9445 5.54988C31.9136 5.61406 31.8818 5.6787 31.8516 5.74426ZM12.2912 12.9311C11.3059 15.0675 10.7167 17.8862 10.5595 21.2122C10.2453 27.8617 11.6657 36.4131 14.9214 45.274C18.1771 54.1349 22.6311 61.5717 27.1757 66.436C29.4488 68.8689 31.7229 70.6357 33.8569 71.6259C33.9222 71.6562 33.9884 71.6841 34.0533 71.713C34.0843 71.6487 34.1172 71.5848 34.1475 71.5192C35.1329 69.3828 35.7229 66.5639 35.8802 63.2377C35.8964 62.8937 35.9057 62.5446 35.9126 62.1906C31.6099 57.263 27.4742 50.1426 24.4051 41.7895C21.3356 33.4353 19.8764 25.33 19.9657 18.7883C19.7318 18.5237 19.4985 18.265 19.264 18.014C16.9907 15.5809 14.7159 13.8146 12.5818 12.8244C12.516 12.7939 12.4496 12.7658 12.3842 12.7368C12.3532 12.801 12.3215 12.8656 12.2912 12.9311ZM22.2739 9.44015C21.3457 11.5497 20.7883 14.2922 20.6362 17.5098C20.62 17.8537 20.6094 18.2026 20.6025 18.5564C24.9056 23.484 29.042 30.6044 32.1113 38.9581L32.4132 39.7939C35.276 47.8507 36.6347 55.6339 36.5488 61.9569C36.7833 62.2222 37.0172 62.4818 37.2524 62.7336C39.4513 65.0871 41.6518 66.8155 43.7248 67.8223C44.653 65.7128 45.2117 62.9708 45.3638 59.7532C45.38 59.4093 45.3893 59.0601 45.3963 58.7061C41.0935 53.7785 36.9578 46.6581 33.8887 38.305C30.8192 29.9509 29.36 21.8455 29.4493 15.3038C29.2155 15.0393 28.9821 14.7805 28.7476 14.5295C26.5483 12.1756 24.3473 10.4468 22.2739 9.44015ZM20.5948 19.5153C20.6185 25.8361 22.0611 33.5779 24.9981 41.5716C27.935 49.5648 31.8472 56.3989 35.9212 61.2314C35.8973 54.9107 34.4551 47.1693 31.5182 39.176C28.5812 31.1824 24.669 24.3478 20.5948 19.5153ZM30.0776 16.0311C30.1013 22.3518 31.5448 30.0936 34.4818 38.0871C37.4187 46.0804 41.3317 52.914 45.4057 57.7465C45.3818 51.426 43.9387 43.6847 41.0019 35.6915C38.0648 27.6978 34.1518 20.8637 30.0776 16.0311ZM16.3102 8.77132C14.8391 9.31192 13.6146 10.4612 12.6723 12.1731C15.042 13.2311 17.5356 15.1889 19.9894 17.8703C20.1161 14.4345 20.6905 11.4691 21.7009 9.17733C19.7126 8.33121 17.8924 8.19006 16.3102 8.77132ZM26.3869 5.06892C24.8049 5.65025 23.5086 6.93577 22.5411 8.86757C24.7951 9.95982 27.1517 11.8492 29.473 14.3858C29.6069 10.7538 30.2415 7.64767 31.3622 5.30711C29.5355 4.61221 27.8582 4.52839 26.3869 5.06892Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </div>
+                                        <div class="text-rotate">
+                                            <div class="circle">
+                                                <div class="text" id="circularText"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="intro-client letter-space--05 text-body-3">
+                                    <i class="icon icon-global-elip"></i>
+                                    Products I helped build (2024–2026)
+                                </p>
+
+                                <div class="infiniteSlide-brand">
+                                    <div class="infiniteSlide" data-clone="3">
+                                        <!-- Clone 1 -->
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/Dream Studio.png" width="132" height="24"
+                                                src="assets/images/Dream Studio.png" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/Ophira Logo 1.png" width="122" height="24"
+                                                src="assets/images/Ophira Logo 1.png" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/arom.png" width="125" height="24"
+                                                src="assets/images/arom.png" alt="Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Intro -->
+
+                            <!-- About -->
+                            <div id="about" style="padding-bottom: 0;" class="section-about flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="fa-regular fa-user"></i>
+                                    About
+                                </div>
+                                <h4 class="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
+                                    Designing user-focused <br class="d-none d-lg-block">
+                                    brands & digital products with, <br class="d-none d-lg-block">
+                                    clarity and creativity
+                                </h4>
+                                <p class="s-desc text-black-56 scrolling-effect effectTop">
+                                    I combine UI/UX, product design, and web experiences to create 
+                                    solutions that are clear, intuitive, and impactful. <br>
+                                    <br>
+                                    Every project is shaped with both strategy and simplicity—ensuring the 
+                                    design not only looks good, but works seamlessly and drives real growth.
+                                </p>
+                                <div style="display: flex; flex-flow:row wrap; gap: 20px;" class="box-counter effectFade fadeUp no-div">
+                                    <div style="background: linear-gradient(110.38deg, rgba(215, 237, 237, 0.1) 0%, rgba(204, 235, 235, 0.01) 100%); padding: 20px 50px; border-radius: 12px;" class="wg-counter">
+                                        <p class="counter h1 d-flex font-2 letter-space--2">0
+                                            <span class="number" data-speed="1000" data-to="02">02</span>
+                                            +
+                                        </p>
+                                        <p class="text text-black-56 text-body-3">
+                                            Years in Product Design
+                                        </p>
+                                    </div>
+                                    <div style="background: linear-gradient(110.38deg, rgba(215, 237, 237, 0.1) 0%, rgba(204, 235, 235, 0.01) 100%); padding: 20px 50px; border-radius: 12px;" class="wg-counter">
+                                        <p class="counter h1 d-flex font-2 letter-space--2">
+                                            <span class="number" data-speed="1000" data-to="50">50</span>
+                                            +
+                                        </p>
+                                        <p class="text text-black-56 text-body-3">
+                                            Satisfied Clients
+                                        </p>
+                                    </div>
+                                    <div style="background: linear-gradient(110.38deg, rgba(215, 237, 237, 0.1) 0%, rgba(204, 235, 235, 0.01) 100%); padding: 20px 50px; border-radius: 12px;" class="wg-counter">
+                                        <p class="counter h1 d-flex font-2 letter-space--2">
+                                            <span class="number" data-speed="1000" data-to="100">100</span>
+                                            +
+                                        </p>
+                                        <p class="text text-black-56 text-body-3">
+                                            Projects Completed
+                                        </p>
+                                    </div>
+                                </div>
+                                </ul>
+                            </div>
+                            <!-- /About -->
+
+                            <!-- Education & Experience -->
+                            <div id="education" class="section-education-experience flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="icon icon-edu"></i>
+                                    Resume
+                                </div>
+                                <div class="timeline scroll-down">
+                                    <div class="timeline-line">
+                                        <div class="prg-line"></div>
+                                    </div>
+                                    <!-- Item 1 -->
+                                    <div class="timeline-item effectFade fadeUp no-div">
+                                        <p class="timeline-date text-black-56">2025 - Now </p>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-content">
+                                            <div class="icon">
+                                                <img style="width: 30%;" class="image-switch" data-dark="assets/images/Logo-Dreamlab-IT 3.png" loading="lazy" width="32"
+                                                    height="32" src="assets/images/Logo-Dreamlab-IT 3.png" alt="Image">
+                                            </div>
+                                            <p class="timeline-role fw-medium text-black-72">Independent Product Designer at Dreamlab IT</p>
+                                            <p class="timeline-desc text-body-3 text-black-56">
+                                                Leading UI/UX and product design to help startups launch faster and scale effectively.
+                                                Focused on building intuitive digital products and high-performing web experiences.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="timeline-item effectFade fadeUp no-div">
+                                        <p class="timeline-date text-black-56">2025 - 2025</p>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-content">
+                                            <div class="icon">
+                                                <img style="width: 30%;" class="image-switch" data-dark="assets/images/Sparktech Agency.png" width="29" height="32"
+                                                    src="assets/images/Sparktech Agency.png" alt="Image">
+                                            </div>
+                                            <p class="timeline-role fw-medium text-black-72">Web, App & Dashboard Designer at Sparktech Agency</p>
+                                            <p class="timeline-desc text-body-3 text-black-56">
+                                                Designed web, app, and dashboard experiences with a strong focus on usability and visual clarity.
+                                                Delivered impactful solutions that balanced user needs with business goals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="timeline-item effectFade fadeUp no-div">
+                                        <p class="timeline-date text-black-56">2024 - 2025</p>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-content">
+                                            <div class="icon">
+                                                <img style="width: 30%;" class="image-switch" data-dark="assets/images/BrainicSoft Digital.png" width="120" height="32"
+                                                    src="assets/images/BrainicSoft Digital.png" alt="Image">
+                                            </div>
+                                            <p class="timeline-role fw-medium text-black-72">Junior UI/UX Designer at BrainicSoft Digital</p>
+                                            <p class="timeline-desc text-body-3 text-black-56">
+                                               Developed a strong foundation in UI/UX and interface design while working on real-world projects.
+                                                Collaborated with senior designers to deliver clear, user-focused digital experiences.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Education & Experience -->
+
+                            <!-- Work Highlight -->
+                            <div id="work" class="section-work flat-spacing">
+                                <div class="sect-tag text-caption fw-medium">
+                                    <i class="icon icon-high-light"></i>
+                                    Work Highlights
+                                </div>
+                                <div class="work-list element-sticky">
+                                    <div class="sticky-item">
+                                        <div class="wg-work">
+                                            <div class="work-image">
+                                                <img loading="lazy" width="700" height="427" src="assets/images/Dreamlab IT Rebranding.png" alt="Image">
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="work-content">
+                                                    <div class="w-image">
+                                                        <img loading="lazy" width="468" height="856" src="assets/images/Dreamlab IT Rebranding.png"
+                                                            alt="Image">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <div class="w-logo">
+                                                                <img loading="lazy" width="40" height="40" src="assets/images/Favicon/favicon.svg"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <h4 class="w-title letter-space--2 text-white-72">
+                                                                Dreamlab IT Rebranding
+                                                            </h4>
+                                                            <p class="w-desc text-white-56 text-body-3">
+                                                                Brand and website for a drone startup, blending futuristic visuals with trust-driven design
+                                                            </p>
+                                                            <div class="w-highlight">
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Year
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        2025-2026
+                                                                    </p>
+                                                                </div>
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Role
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        Product Designer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-tag-list">
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Branding
+                                                                    </span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Website
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-bottom">
+                                                            <div class="br-line"></div>
+                                                            <div class="group-action">
+                                                                <a href="https://www.figma.com/design/jSbfgjGXVNLIQcKJ2hVHHh/Dreamlab-IT--Rebranding-?m=auto&t=DVJIUq3g62O3EvXZ-1" class="tf-btn-action style-white">
+                                                                    <span class="ic-wrap">
+                                                                        <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                                                                    </span>
+                                                                    <span class="text text-body-3 letter-space--05 fw-medium">
+                                                                        View Figma
+                                                                    </span>
+                                                                    <span class="ic-wrap">
+                                                                        <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <p class="text-white-40">
+                                                                    <span class="text-white-72">01</span> / 03
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sticky-item">
+                                        <div class="wg-work">
+                                            <div class="work-image">
+                                                <img loading="lazy" width="700" height="427" src="assets/images/Xtrachores Multivendor.png" alt="Image">
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="work-content">
+                                                    <div class="w-image">
+                                                        <img loading="lazy" width="468" height="856" src="assets/images/Xtrachores Multivendor.png"
+                                                            alt="Image">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <div class="w-logo">
+                                                                <img loading="lazy" width="40" height="40" src="assets/images/Favicon/favicon.svg"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <h4 class="w-title letter-space--2 text-white-72">
+                                                                Xtrachores Multivendor
+                                                            </h4>
+                                                            <p class="w-desc text-white-56 text-body-3">
+                                                                Minimal e-commerce identity and website crafted to highlight timeless fashion essentials
+                                                            </p>
+                                                            <div class="w-highlight">
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Year
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        2026
+                                                                    </p>
+                                                                </div>
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Role
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        Lead Product Designer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-tag-list">
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Xtrachores Mobile App
+                                                                    </span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Handyman Service
+                                                                    </span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Mobile App
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-bottom">
+                                                            <div class="br-line"></div>
+                                                            <div class="group-action">
+                                                                <a href="https://www.figma.com/design/tHblGq6w5TovHSlXA0L5Qg/XtraChores-Mobile-App?m=auto&t=DVJIUq3g62O3EvXZ-1" class="tf-btn-action style-white">
+                                                                    <span class="ic-wrap">
+                                                                        <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                                                                    </span>
+                                                                    <span class="text text-body-3 letter-space--05 fw-medium">
+                                                                        View Figma
+                                                                    </span>
+                                                                    <span class="ic-wrap">
+                                                                        <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <p class="text-white-40">
+                                                                    <span class="text-white-72">02</span> / 03
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sticky-item">
+                                        <div class="wg-work">
+                                            <div class="work-image">
+                                                <img loading="lazy" width="700" height="427" src="assets/images/Feild Flow.png" alt="Image">
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="work-content">
+                                                    <div class="w-image">
+                                                        <img loading="lazy" width="468" height="856" src="assets/images/Feild Flow.png"
+                                                            alt="Image">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <div class="w-logo">
+                                                                <img loading="lazy" width="40" height="40" src="assets/images/Favicon/favicon.svg"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <h4 class="w-title letter-space--2 text-white-72">
+                                                                Workload Management Dashboard
+                                                            </h4>
+                                                            <p class="w-desc text-white-56 text-body-3">
+                                                                Landing experience for Nike’s urban campaign, built to
+                                                                inspire movement and brand loyalty
+                                                            </p>
+                                                            <div class="w-highlight">
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Year
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        2026
+                                                                    </p>
+                                                                </div>
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Role
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        Product & UX Designer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-tag-list">
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        SaaS
+                                                                    </span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Opractions
+                                                                    </span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">
+                                                                        Webflow
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-bottom">
+                                                            <div class="br-line"></div>
+                                                            <div class="group-action">
+                                                                <a href="#" class="tf-btn-action style-white">
+                                                                    <span class="ic-wrap">
+                                                                        <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                                                                    </span>
+                                                                    <span class="text text-body-3 letter-space--05 fw-medium">
+                                                                        Let’s talk
+                                                                    </span>
+                                                                    <span class="ic-wrap">
+                                                                       <i class="fa-solid fa-arrow-right cmz-icon-cl"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <p class="text-white-40">
+                                                                    <span class="text-white-72">03</span> / 03
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Work Highlight -->
+
+                            <!-- Service -->
+                            <div id="service" class="section-service flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div mb-0">
+                                    <i class="fa-brands fa-whmcs"></i>
+                                    Services
+                                </div>
+                                <div class="" id="accordion-service">
+                                    <div class="service-accordion_item scrolling-effect effectBottom" role="presentation">
+                                        <div class="accordion-action" data-bs-target="#service-1" role="button" data-bs-toggle="collapse"
+                                            aria-controls="service-1" aria-expanded="true">
+                                            <h4 class="text letter-space--2 text-black-72">Website & App Design</h4>
+                                            <div class="ic-wrap">
+                                                <span class="ic-accordion-custom"></span>
+                                            </div>
+                                        </div>
+                                        <div id="service-1" class="collapse show" data-bs-parent="#accordion-service">
+                                            <div class="accordion-content">
+                                                <div class="tf-grid-layout sm-col-2">
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-1.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-2.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-tag">
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Visual Design
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Interaction Design
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Responsive Layouts
+                                                    </a>
+                                                </div>
+                                                <p class="service-desc text-black-56">
+                                                    I design modern, responsive websites and apps that balance creativity with usability, ensuring every experience feels seamless and intuitive.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="br-line scrolling-effect effectBottom"></div>
+                                    <div class="service-accordion_item scrolling-effect effectBottom" role="presentation">
+                                        <div class="accordion-action collapsed" data-bs-target="#service-2" role="button" data-bs-toggle="collapse"
+                                            aria-controls="service-2" aria-expanded="true">
+                                            <h4 class="text letter-space--2 text-black-72">SaaS Product Design</h4>
+                                            <div class="ic-wrap">
+                                                <span class="ic-accordion-custom"></span>
+                                            </div>
+                                        </div>
+                                        <div id="service-2" class="collapse" data-bs-parent="#accordion-service">
+                                            <div class="accordion-content">
+                                                <div class="tf-grid-layout sm-col-2">
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-3.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-4.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-tag">
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Dashboard Design
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Product Strategy
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                       SaaS UX Design
+                                                    </a>
+                                                </div>
+                                                <p class="service-desc text-black-56">
+                                                    I design scalable SaaS products with a focus on usability, clarity, and performance—helping users navigate complex systems with ease.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="br-line scrolling-effect effectBottom"></div>
+                                    <div class="service-accordion_item scrolling-effect effectBottom" role="presentation">
+                                        <div class="accordion-action collapsed" data-bs-target="#service-3" role="button" data-bs-toggle="collapse"
+                                            aria-controls="service-3" aria-expanded="true">
+                                            <h4 class="text letter-space--2 text-black-72">Brand Identity</h4>
+                                            <div class="ic-wrap">
+                                                <span class="ic-accordion-custom"></span>
+                                            </div>
+                                        </div>
+                                        <div id="service-3" class="collapse" data-bs-parent="#accordion-service">
+                                            <div class="accordion-content">
+                                                <div class="tf-grid-layout sm-col-2">
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-5.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-6.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-tag">
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Logo Design
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Visual Systems
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Brand Guidelines
+                                                    </a>
+                                                </div>
+                                                <p class="service-desc text-black-56">
+                                                    I craft cohesive brand systems with logos, colors, and typography
+                                                    that reflect your values—making
+                                                    your business recognizable and trusted.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Service -->
+
+                            <!-- Tech Stack -->
+                            <div id="tech" class="section-tech-stack flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="fa-brands fa-yelp"></i>
+                                    Tech Stack
+                                </div>
+                                <h4 class="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
+                                   See how my expertise with these <br class="d-none d-sm-block">
+                                    tools drives better results 
+                                </h4>
+                                <ul class="tech-list">
+                                    <li class="wg-tech">
+                                        <div class="tech-infor effectFade fadeUp no-div">
+                                            <div class="tech_image">
+                                                <img loading="lazy" width="19" height="28" src="assets/images/figma.png" alt="Image">
+                                            </div>
+                                            <div class="tech_info">
+                                                <p class="info__name fw-medium text-black-72">Figma</p>
+                                                <p class="info__duty text-black-56 text-body-3">Leading design tool</p>
+                                            </div>
+                                        </div>
+                                        <div class="tech-progress">
+                                            <div class="progress-line" data-progress="95">
+                                                <p class="progress-num text-caption">
+                                                    <span class="counter">
+                                                        <span class="number" data-speed="1500" data-to="95">10</span>
+                                                        %
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="br-line"></li>
+                                    <li class="wg-tech">
+                                        <div class="tech-infor effectFade fadeUp no-div">
+                                            <div class="tech_image">
+                                                <img class="image-switch" data-dark="assets/images/miro.png" width="18" height="28"
+                                                    src="assets/images/miro.png" alt="Image">
+                                            </div>
+                                            <div class="tech_info">
+                                                <p class="info__name fw-medium text-black-72">Miro</p>
+                                                <p class="info__duty text-black-56 text-body-3">User roadmap creation
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="tech-progress">
+                                            <div class="progress-line" data-progress="85">
+                                                <p class="progress-num text-caption">
+                                                    <span class="counter">
+                                                        <span class="number" data-speed="1500" data-to="85">10</span>
+                                                        %
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="br-line"></li>
+                                    <li class="wg-tech">
+                                        <div class="tech-infor effectFade fadeUp no-div">
+                                            <div class="tech_image">
+                                                <img loading="lazy" width="29" height="28" src="assets/images/photoshop.png" alt="Image">
+                                            </div>
+                                            <div class="tech_info">
+                                                <p class="info__name fw-medium text-black-72">Adobe Photoshop</p>
+                                                <p class="info__duty text-black-56 text-body-3">Raster graphics editor
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="tech-progress">
+                                            <div class="progress-line" data-progress="90">
+                                                <p class="progress-num text-caption">
+                                                    <span class="counter">
+                                                        <span class="number" data-speed="1500" data-to="90">10</span>
+                                                        %
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /Tech Stack -->
+
+                            <!-- Testimonial -->
+                            <div id="testimonial" class="section-testimonial flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="fa-brands fa-teamspeak"></i>
+                                    Testimonials
+                                </div>
+                                <div class="heading overflow-hidden">
+                                    <div class="head-left">
+                                        <h4 class="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
+                                            Here's what <br class="d-none d-lg-block">
+                                            people are saying
+                                        </h4>
+                                        <div class="box-counter effectFade fadeUp no-div">
+                                            <div class="wg-counter">
+                                                <p class="counter h1 d-flex font-2 letter-space--2 text-black-72">
+                                                    <span class="number" data-speed="1000" data-to="56">0</span>
+                                                    +
+                                                </p>
+                                                <p class="text text-black-56">
+                                                    Finalized projects
+                                                </p>
+                                            </div>
+                                            <div class="wg-counter">
+                                                <p class="counter h1 d-flex font-2 letter-space--2 text-black-72">
+                                                    <span class="number" data-speed="1000" data-to="100">0</span>
+                                                    %
+                                                </p>
+                                                <p class="text text-black-56">
+                                                    Client satisfaction
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div dir="ltr" class="swiper sw-main-image effectFade fadeRight no-div">
+                                        <div class="swiper-wrapper">
+                                            <!-- item 1 -->
+                                            <div class="swiper-slide">
+                                                <div class="head-image">
+                                                    <div class="wrap-image">
+                                                        <img loading="lazy" width="236" height="297" src="assets/images/pro.png"
+                                                            alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 2 -->
+                                            <div class="swiper-slide">
+                                                <div class="head-image">
+                                                    <div class="wrap-image">
+                                                        <img loading="lazy" width="236" height="297" src="assets/images/pro.png"
+                                                            alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 3 -->
+                                            <div class="swiper-slide">
+                                                <div class="head-image">
+                                                    <div class="wrap-image">
+                                                        <img loading="lazy" width="236" height="297" src="assets/images/pro.png"
+                                                            alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-testimonial_wrap effectFade fadeUp no-div">
+                                    <div dir="ltr" class="swiper tf-swiper swiper-testimonial">
+                                        <div class="swiper-wrapper">
+                                            <!-- item 1 -->
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-v01">
+                                                    <div class="tes-icon">
+                                                        <i class="icon icon-quote"></i>
+                                                    </div>
+                                                    <h5 class="tes-text letter-space--2 text-black-72">
+                                                        Working with Himel Mahmud was an excellent experience. His expertise in Figma design and graphic design is clearly reflected in the final outcome. The project was delivered on time with a modern, visually appealing, and clean design. What impressed us most is how easy it is to update and manage the design. His communication and professionalism made the entire process smooth and stress-free.
+                                                    </h5>
+                                                    <div class="tes-author">
+                                                        <p class="author_name fw-medium text-black-72">Daniel Ruiz</p>
+                                                        <p class="text-body-3 text-black-56">Head of Product, Tempo App
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 2 -->
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-v01">
+                                                    <div class="tes-icon">
+                                                        <i class="icon icon-quote"></i>
+                                                    </div>
+                                                    <h5 class="tes-text letter-space--2 text-black-72">
+                                                        It was a great experience working with Himel Mahmud. He delivered a high-quality, modern design within a short time, and the final result exceeded our expectations. The layout is clean, user-friendly, and very easy to manage, which has made our workflow much smoother. Highly recommended for anyone looking for a skilled Figma designer and graphic designer.
+                                                    </h5>
+                                                    <div class="tes-author">
+                                                        <p class="author_name fw-medium text-black-72">Sophia Lee</p>
+                                                        <p class="text-body-3 text-black-56">Co-Founder, Horizon Finance
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 3 -->
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-v01">
+                                                    <div class="tes-icon">
+                                                        <i class="icon icon-quote"></i>
+                                                    </div>
+                                                    <h5 class="tes-text letter-space--2 text-black-72">
+                                                        Working with Himel Mahmud was seamless. The Desgin was delivered quickly with a modern, clean design and is very easy to update—exactly what our team needed.
+                                                    </h5>
+                                                    <div class="tes-author">
+                                                        <p class="author_name fw-medium text-black-72">Michael Anders
+                                                        </p>
+                                                        <p class="text-body-3 text-black-56">Marketing Director, Flowly
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="number-pagination"></div>
+                                    <div class="group-btn">
+                                        <div class="sw-nav sw-nav-prev link">
+                                            <i class="fa-solid fa-arrow-left arrow-icon"></i>
+                                        </div>
+                                        <div class="sw-nav sw-nav-next link">
+                                            <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Testimonial -->
+
+                            <!-- Contact -->
+                            <div id="contact" class="section-contact flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="fa-regular fa-address-book"></i>
+                                    Contact
+                                </div>
+                                <h4 class="s-title letter-space--2 split-text effect-blur-fade">
+                                    If you have a general or project <br class="d-none d-lg-block">
+                                    enquiry, please drop me an email <br class="d-none d-lg-block">
+                                    or fill the form - available now
+                                </h4>
+                                <form class="form-contact" id="contactform" action="./assets/contact/contact-process.php" method="post"
+                                    novalidate="novalidate">
+                                    <div class="form-content effectFade fadeUp no-div">
+                                        <fieldset class="field-ip">
+                                            <input type="text" name="name" id="name" placeholder="Your Name *" required>
+                                        </fieldset>
+                                        <fieldset class="field-ip">
+                                            <input type="email" name="email" id="email" placeholder="Email Address *" required>
+                                        </fieldset>
+                                        <fieldset class="field-ip">
+                                            <input type="text" name="message" id="message" placeholder="Project Description">
+                                        </fieldset>
+                                    </div>
+                                    <div class="form-action effectFade fadeUp no-div">
+                                        <div class="send-wrap">
+                                            <button type="submit" class="tf-btn animate-btn animate-dark">
+                                                <span class="text-body-3">
+                                                    Send Message
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <a href="#" class="text-body-1 link letter-space--2 text-black-72">
+                                            himel.uix@gmail.com
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /Contact -->
+
+                            <!-- Footer -->
+                            <div id="footer" class="tf-footer flat-spacing">
+                                <div class="block-quote effectFade fadeUp no-div">
+                                    <h5 class="quote-text font-3 fw-normal text-black-72">
+                                        <span class="text-black-56">“</span>
+                                        If you think good design is expensive, you should look at the cost of bad design.
+                                        <span class="text-black-56">“</span>
+                                    </h5>
+                                    <p class="quote-author font-3 text-black-56 h6 text-end ">
+                                        Ralf Speth
+                                    </p>
+                                </div>
+                                <div class="br-line"></div>
+                                <div class="foot-inner">
+                                    <div class="isak effectFade fadeUp no-div">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354" height="160" viewBox="0 0 354 160">
+                                        <image xlink:href="data:image/png;base64,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" x="0" y="0" width="354" height="160"/>
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="f-logo effectFade fadeZoom">
+                                        <div class="logo">
+                                            <img class="image-switch" data-light="assets/images/Container.png"
+                                                data-dark="assets/images/Container.png" loading="lazy" width="32" height="32"
+                                                src="assets/images/Container.png" alt="Image">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-bottom">
+                                    <p class="text-nocopy text-black-56 effectFade fadeUp no-div">
+                                        All rights reserved <br>
+                                        © 2025  Himel Portfolio
+                                    </p>
+                                    <div class="isak effectFade fadeUp no-div">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="420" height="78" viewBox="0 0 420 78">
+                                        <image xlink:href="data:image/png;base64,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" x="0" y="0" width="420" height="78"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Footer -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery-validate.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- <script src="assets/js/odometer.min.js"></script> -->
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/infinityslide.js"></script>
+    <script src="assets/js/ScrollSmooth.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/gsapAnimation.js"></script>
+
+    <script src="assets/js/countto.js"></script>
+    <script src="assets/js/animation-change-text.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
