@@ -253,7 +253,7 @@
     var textRotate = function () {
         if ($(".wg-curve-text").length > 0) {
             if ($(".text-rotate").length > 0) {
-                const text = "654646464654654654 6516554165149";
+                const text = "With Over Work With 20+ Product";
                 const chars = text.split("");
                 const degree = 360 / chars.length;
 
